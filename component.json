@@ -8,7 +8,7 @@
   "development": {},
   "license": "MIT",
   "scripts": [
-    "index.js"
+    "codemirror.js"
   ],
   "styles": [
     "codemirror.css"
