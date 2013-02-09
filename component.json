@@ -12,5 +12,6 @@
   ],
   "styles": [
     "codemirror.css"
-  ]
+  ],
+  "main": "codemirror.js"
 }

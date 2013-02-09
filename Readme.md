@@ -15,8 +15,7 @@ First, create a new directory and run the above installation commands. Then run 
 Stick this in `demo.js`:
 
     var codemirror = require('codemirror');
-    require('codemirror-mode-javascript');
-    var textarea = getElementById('source');
+    var textarea = document.getElementById('source');
     codemirror.fromTextArea(textarea, {
       mode: 'javascript'
     });
@@ -28,9 +27,11 @@ And put this in `demo.html`:
         <title>CodeMirror JavaScript demo</title>
         <link rel="stylesheet" type="text/css" href="build/build.css">
         <script src="build/build.js"></script>
-        <script src="src/build.js"></script>
         <script src="demo.js"></script>
       </head>
+      <body>
+        <textarea id="source" rows="30" cols="80"></textarea>
+      </body>
     </html>
 
 ## License
