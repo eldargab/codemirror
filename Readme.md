@@ -3,36 +3,30 @@
 
   a syntax highlighting editor for browsers
 
-## Installation
+## TODO
 
-    $ component install benatkin/codemirror
-    $ component install benatkin/codemirror-mode-javascript
+* Make some components for CodeMirror syntaxes
+* Document using the syntaxes
+* Make components for CodeMirror themes
+* Document using the themes
+
+## Getting Started
+
+Check out the example to learn how to use this.
+
+    $ cd example
+    $ npm install -g component
+    $ component install
+    $ component build
+    $ npm install -g serve
+    $ serve
+
+After running the above commands, open up http://localhost:3000/ to see it in action.
 
 ## API
 
-First, create a new directory and run the above installation commands. Then run `component build`. Now you're ready to write some code.
-
-Stick this in `demo.js`:
-
     var codemirror = require('codemirror');
-    var textarea = document.getElementById('source');
-    codemirror.fromTextArea(textarea, {
-      mode: 'javascript'
-    });
-
-And put this in `demo.html`:
-
-    <html>
-      <head>
-        <title>CodeMirror JavaScript demo</title>
-        <link rel="stylesheet" type="text/css" href="build/build.css">
-        <script src="build/build.js"></script>
-        <script src="demo.js"></script>
-      </head>
-      <body>
-        <textarea id="source" rows="30" cols="80"></textarea>
-      </body>
-    </html>
+    codemirror.fromTextArea(textarea);
 
 ## License
 
