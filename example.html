@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>CodeMirror JavaScript demo</title>
+    <link rel="stylesheet" href="build/build.css">
+    <script src="build/build.js"></script>
+  </head>
+  <body>
+    <textarea id="source" rows="30" cols="80"></textarea>
+    <script>
+      var codemirror = require('codemirror')
+      var textarea = document.getElementById('source')
+      codemirror.fromTextArea(textarea)
+    </script>
+  </body>
+</html>
