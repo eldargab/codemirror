@@ -1,8 +1,10 @@
-#CodeMirror
+# CodeMirror
 
-[CodeMirror](http://codemirror.net/) as a component
+[CodeMirror](http://codemirror.net/) as a [component](https://github.com/component/component).
 
-## API
+## Usage
 
-    var codemirror = require('codemirror');
-    codemirror.fromTextArea(textarea);
+```javascript
+require('codemirror')
+// CodeMirror global is now available
+```

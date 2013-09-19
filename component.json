@@ -1,7 +1,7 @@
 {
   "name": "codemirror",
   "description": "a syntax highlighting editor for browsers",
-  "version": "3.16.0",
+  "version": "3.16.1",
   "main": "codemirror.js",
   "scripts": ["codemirror.js"],
   "styles": ["codemirror.css"]
